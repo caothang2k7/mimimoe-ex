@@ -1,4 +1,3 @@
-overrideVersionCode = 1
 ext {
     extName = 'MimiMoe'
     extClass = '.MimiMoe'
@@ -6,4 +5,4 @@ ext {
     isNsfw = true
 }
 
-apply(from = "$rootDir/common.gradle")
+apply from: "$rootDir/common.gradle"
